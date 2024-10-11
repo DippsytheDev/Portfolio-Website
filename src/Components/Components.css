@@ -1,0 +1,166 @@
+/* Base styles for both navs */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  height: 26vh;
+  font-size: clamp(1.1rem, 2vw, 2rem);
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links,
+.menu-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.nav-links li,
+.menu-links li {
+  cursor: pointer;
+}
+/* Hamburger Menu */
+#hamburger-nav {
+  display: none;
+}
+
+.hamburger-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger-icon span {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  transition: all 0.3s ease;
+}
+
+/* Media query for screens smaller than 1200px */
+@media (max-width: 1200px) {
+  /* Hide desktop menu and show hamburger nav */
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  /* when the menu is opened transform the span */
+  /* Transforms when menu is open */
+  .hamburger-icon.open span:nth-child(1) {
+    transform: rotate(45deg);
+    position: absolute;
+  }
+
+  .hamburger-icon.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-icon.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    position: absolute;
+  }
+  /* Initially hide the menu links */
+  .menu-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Show the menu when 'open' class is applied */
+  .menu-links.open {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Media query for screens larger than 1200px */
+@media (min-width: 1201px) {
+  /* Show desktop nav and hide hamburger menu */
+  #desktop-nav {
+    display: flex;
+  }
+
+  #hamburger-nav {
+    display: none;
+  }
+}
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+  height: 26vh;
+  margin: 0 1rem;
+}
+.copyright {
+  text-align: center;
+}
+.nav-links-container {
+  display: flex;
+}
+nav,
+.nav-links2 {
+  display: flex;
+}
+
+.nav-links2 {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  list-style-type: none;
+  gap: 2rem;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+}
+
+.nav-links {
+  list-style: none;
+}
+
+@media (max-width: 600px) {
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  footer {
+    height: 40vh;
+  }
+  .nav-links,
+  .nav-links2 {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
