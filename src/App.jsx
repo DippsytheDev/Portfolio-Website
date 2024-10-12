@@ -11,22 +11,17 @@ const App = () => {
         <NavBar />
         <section id="profile">
           <div className="section__pic__container first">
-            <img
-              src="public/Images/img1.jpeg"
-              alt="John Mark profile picture"
-            />
+            <img src="/Images/img1.jpeg" alt="John Mark profile picture" />
           </div>
           <div className="section__text">
             <p className="section__text__p1">Hello, I am</p>
             <h1 className="title">Dipo</h1>
             <p className="section__text__p2">A Frontend Developer</p>
             <div className="btn-container">
-              <button
-                className="btn btn-color-2"
-                onClick={() => window.open("https://www.github.com")}
-              >
-                Download CV
-              </button>
+              <a href="/Images/Akinde Dipo.pdf">
+                <button className="btn btn-color-2">Download CV</button>
+              </a>
+
               <button
                 className="btn btn-color-1"
                 onClick={() => window.open("#contact", "_self")}
@@ -58,7 +53,7 @@ const App = () => {
           <div className="section-container">
             <div className="section__pic__container">
               <img
-                src="public/Images/img1.jpeg"
+                src="/Images/img1.jpeg"
                 alt="Profile picture"
                 className="about-pic"
               />
@@ -85,7 +80,7 @@ const App = () => {
                   />
                   <h3>Education</h3>
                   <p>
-                    B.Sc. Bachelors Degree
+                    University Of Lagos Bachelors Degree in Civil Engineering
                     <br />.
                   </p>
                 </div>
@@ -104,12 +99,6 @@ const App = () => {
               </div>
             </div>
           </div>
-          <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            className="icon arrow"
-            /*      onclick="location.href='./#experience'" */
-          />
         </section>
         <section id="experience">
           <p className="section__text__p1">Explore My</p>
@@ -153,13 +142,6 @@ const App = () => {
               </div>
             </div>
           </div>
-
-          <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            className="icon arrow"
-            /*  onclick="location.href='./#projects'" */
-          />
         </section>
         <section className="projects">
           <p className="section__text__p1">Browse My Recent</p>
@@ -231,12 +213,6 @@ const App = () => {
               </div>
             </div>
           </div>
-          <img
-            src="/Images/arrow.png"
-            alt="Arrow icon"
-            className="icon arrow"
-            /*  onclick="location.href='./#contact'" */
-          />
         </section>
         <section id="contact">
           <p className="section__text__p1">Get in Touch</p>
