@@ -12,7 +12,7 @@ const App = () => {
         <section id="profile">
           <div className="section__pic__container first">
             <img
-              src="public/Images/project-1.png"
+              src="public/Images/img1.jpeg"
               alt="John Mark profile picture"
             />
           </div>
@@ -58,7 +58,7 @@ const App = () => {
           <div className="section-container">
             <div className="section__pic__container">
               <img
-                src="public/Images/project-1.png"
+                src="public/Images/img1.jpeg"
                 alt="Profile picture"
                 className="about-pic"
               />
@@ -169,7 +169,7 @@ const App = () => {
               <div className="details-container color-container">
                 <div className="article-container">
                   <img
-                    src="/Images/project-1.png"
+                    src="/Images/img2.png"
                     alt="Project 1"
                     className="project-img"
                   />
@@ -180,13 +180,15 @@ const App = () => {
                 <div className="btn-container">
                   <button
                     className="btn btn-color-2 project-btn"
-                    onClick={() => window.open("https://www.github.com")}
+                    onClick={() =>
+                      window.open("https://github.com/DippsytheDev/MakeupByBim")
+                    }
                   >
                     Github
                   </button>
                   <button
                     className="btn btn-color-2 project-btn"
-                    onClick={() => window.open("https://www.vercel.com")}
+                    onClick={() => window.open("https://www.makeupbybims.com")}
                   >
                     Live Demo
                   </button>
@@ -196,7 +198,7 @@ const App = () => {
               <div className="details-container color-container">
                 <div className="article-container">
                   <img
-                    src="/Images/project-1.png"
+                    src="/Images/img3.png"
                     alt="Project 1"
                     className="project-img"
                   />
@@ -207,13 +209,21 @@ const App = () => {
                 <div className="btn-container">
                   <button
                     className="btn btn-color-2 project-btn"
-                    onClick={() => window.open("https://www.github.com")}
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/DippsytheDev/Portfolio-Website"
+                      )
+                    }
                   >
                     Github
                   </button>
                   <button
                     className="btn btn-color-2 project-btn"
-                    onClick={() => window.open("https://www.vercel.com")}
+                    onClick={() =>
+                      window.open(
+                        "https://portfolio-website-green-nu.vercel.app"
+                      )
+                    }
                   >
                     Live Demo
                   </button>

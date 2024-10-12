@@ -70,6 +70,10 @@ section {
 
 .first img {
   border-radius: 50%;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-position: -10px 0;
 }
 
 .section__text {

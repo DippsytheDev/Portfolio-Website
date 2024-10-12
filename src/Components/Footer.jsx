@@ -21,7 +21,7 @@ const Footer = () => {
         </ul>
       </nav>
       <p className="copyright">
-        Copyright &#169; 2023 John Doe. All Rights Reserved.
+        Copyright &#169; 2024 Akinde Oladipupo. All Rights Reserved.
       </p>
     </>
   );

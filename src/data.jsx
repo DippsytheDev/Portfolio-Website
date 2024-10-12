@@ -58,7 +58,7 @@ export const backend = [
   {
     id: 4,
     img: "/Images/checkmark.png",
-    software: "EXPRESS JS",
-    level: "Basic",
+    software: "MYSQL",
+    level: "Intermediate",
   },
 ];
