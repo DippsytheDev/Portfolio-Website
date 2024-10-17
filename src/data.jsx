@@ -35,6 +35,24 @@ export const frontend = [
     software: "GIT",
     level: "Experienced",
   },
+  {
+    id: 7,
+    img: "/Images/checkmark.png",
+    software: "TYPESCRIPT",
+    level: "Experienced",
+  },
+  {
+    id: 8,
+    img: "/Images/checkmark.png",
+    software: "NEXT.JS",
+    level: "Experienced",
+  },
+  {
+    id: 9,
+    img: "/Images/checkmark.png",
+    software: "FIREBASE",
+    level: "Experienced",
+  },
 ];
 export const backend = [
   {
