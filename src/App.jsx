@@ -89,12 +89,12 @@ const App = () => {
                 <p>
                   As a proficient front-end web developer, I specialize in
                   creating responsive, user-friendly websites and applications.
-                  My expertise lies in React, CSS, HTML, and JavaScript,
-                  allowing me to build dynamic and engaging interfaces. Whether
-                  you need a custom website, a single-page application, or
-                  enhancements to your existing site, I am committed to
-                  delivering high-quality code and a seamless user experience.
-                  Let’s collaborate to bring your vision to life!
+                  My expertise lies in React, CSS, HTML,JavaScript,TypeScript
+                  and Next.Js allowing me to build dynamic and engaging
+                  interfaces. Whether you need a custom website, a single-page
+                  application, or enhancements to your existing site, I am
+                  committed to delivering high-quality code and a seamless user
+                  experience. Let’s collaborate to bring your vision to life!
                 </p>
               </div>
             </div>
